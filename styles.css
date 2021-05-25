@@ -1,0 +1,186 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#1a2e239a, #676d6f7a),url(images/pexels-eberhard-grossgasteiger-pines.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment:fixed;}
+ul {
+    list-style-type: none; 
+    position: absolute;}
+li {
+    float: left;}
+li a {
+    font-family: 'Roboto Slab', serif; 
+    display: block; 
+    color: #EFD5A2; 
+    text-align: center; 
+    margin-top: -50px; 
+    padding: 15px 15px; 
+    text-decoration: none;}
+.navlink :hover {
+    color: #1a2e23;}
+.active {
+    color: #f5e8cc;}
+.movenav {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.animate__animated.animate__slideInUp {
+    animation-duration: 800ms;
+}
+    
+.socials {
+    color: #EFD5A2;
+    font-size: 28px;
+    text-align: center;
+    
+}
+a i {
+    color: #EFD5A2;
+    margin-right: 20px;
+    padding-left: 19px;
+    padding-top: 30px;
+    text-shadow: 4px 1px 0px rgb(37, 87, 87);
+} 
+.socials :hover {
+    color: #1a2e23;
+}    
+
+
+    
+.main-name {
+    font-family: 'Racing Sans One', cursive; 
+    font-size: 50px;
+    color: #EFD5A2;
+    word-spacing: 11px;
+    text-align: center;
+    justify-content: center;
+    position: relative; 
+    top: 175px;
+    text-shadow: 4px 5px 0px rgb(37, 87, 87);}
+
+.main-subtitle {
+    font-family: 'Roboto Slab', serif;
+    color: #EFD5A2; 
+    text-align: center;}
+
+.main-img {
+    border-radius: 50%; 
+    width: 300px;
+    height: 300px;}
+
+.main-center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 200px;}
+
+.main-bottom-text {
+    font-family: 'Roboto Slab', serif; 
+    color: #EFD5A2;
+    text-align: center; 
+    position: relative; 
+    bottom: -20px;}
+
+
+
+
+
+.splash-header {
+    font-size: 50px;
+    text-align: center; 
+    position: relative; 
+    top: 120px;}
+.splash-subtitle {
+    font-size: 30px; 
+    text-align: center; 
+    position: relative; 
+    top: 115px;}
+.splash-quip {
+    text-align: center; 
+    position: relative; 
+    top: 460px;}
+.splash-centered {
+    display: flex; 
+    justify-content: 
+    center; 
+    margin-top: 100px;}
+.splash-text {
+    font-family: 'Roboto Slab', sans-serif; 
+    color: #EFD5A2;}
+.splash-photo-border {
+    border-radius: 50%; 
+    border-color: #EFD5A2;}  
+.splash-photo{
+    transition: transform 1s ease-in-out}
+.splash-photo:hover .splash-shadow {
+    transform: scale(1.05);
+    box-shadow: 7px 7px 5px #EFD5A2;} 
+
+
+
+
+    .abt-header {
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+        color: #EFD5A2;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .abt-img {
+       top: 30px;
+       float: right;
+       width: 83.7px;
+       height: auto;
+       min-width: 20%;
+       min-height: 20%;
+       border-radius: 50%;
+       margin: 15px;
+       box-shadow: 7px 7px 4px #1a2e23;
+    }
+
+    .abt-text {
+        color: #EFD5A2;
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        margin-left: 20px;
+        padding-left: 25px;
+        float: right;
+        margin-right: 20px;
+    }
+    .abt-subheader {
+        color: #EFD5A2;
+        font-family: 'Roboto Slab', serif;
+        padding-top: 30px;
+        padding-left: 42px;
+    }
+    .abtlist {
+        
+        float: left;
+        color: #EFD5A2;
+        font-family: 'Roboto Slab', serif;
+        padding: 50px;
+
+    }
+
+
+
+    .projects-header {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        padding-top: 70px;
+        color: #EFD5A2;
+    }
+    .projects-text {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        color: #EFD5A2
+    }
+    .project-link {
+        color: #EFD5A2
+    }
+    .project-link:hover {
+        color: #1a2e23;
+    }
